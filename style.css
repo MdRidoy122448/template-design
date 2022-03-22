@@ -152,6 +152,9 @@ li{
     margin: 40px auto 20px;
     padding: 20px; 
 }
+.item-box:hover{
+    background-color: #dddddd;
+}
 .item-box img{
     width: 100%;
 }
