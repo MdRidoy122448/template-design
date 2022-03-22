@@ -30,7 +30,7 @@ li{
     color: #ffffff;
     text-decoration: none;
 }
-.home, .navbar ul li a:hover{
+.navbar ul li .home, .navbar ul li a:hover{
     color: #fdd430;
 }
 .content-wrapper{
