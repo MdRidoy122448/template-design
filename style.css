@@ -226,7 +226,7 @@ li{
 .card-container{
     border-radius: 20px;
     box-shadow:  0px 0px 10px #ddd;
-    transition: 0.7s;
+    transition: 0.5s;
     padding: 35px 0 30px; 
     text-align: center;
 }
