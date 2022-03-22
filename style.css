@@ -5,6 +5,7 @@
 
     font-family: 'Roboto', sans-serif;
 }
+/* header section start */
 .header{
     width: 100%;
     background-color: #0c0f38;
@@ -21,7 +22,7 @@
     
 }
 .logo >img{
-    width: 100%;/* confusion */
+    width: 100%;
 }
 li{
     list-style: none;
@@ -87,7 +88,7 @@ li{
     text-align: center;
 }
 .feature-content{
-    width: 950px;
+    max-width: 950px;
     margin: auto;
 }
 .feature-content h1{
@@ -111,9 +112,13 @@ li{
     text-transform: uppercase;
     margin-bottom: 25px;
 }
+.new-features a:hover{
+    background-color: #0C0F38;
+    color: #ffffff;
+}
 /* new-features end */
 
-/* services */
+/* services section start */
 .services{
     background-color: #0c0f38;
     color: white;
@@ -144,7 +149,7 @@ li{
     border: 2px solid #ffffff;
     transition: 1s;
 }
-.item-box{
+.item-img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -152,10 +157,10 @@ li{
     margin: 40px auto 20px;
     padding: 20px; 
 }
-.item-box:hover{
+.item-img:hover{
     background-color: #dddddd;
 }
-.item-box img{
+.item-img img{
     width: 100%;
 }
 .item h3{
@@ -179,15 +184,94 @@ li{
     text-decoration: none;
     font-size: 16px;
     background-color: #fff;
-    color: #000;
+    color: #000000;
     padding: 15px 0px;
     max-width: 190px;
     margin: 0 auto;
 }
+.service-btn:hover{
+    background-color: #8308EB;
+    color:#ffffff;
+}
+/* service section end */
 
+/* Why choose us start here */
 
-
-
+.why{
+    padding: 75px 0;
+}
+.why-header{
+    text-align: center; 
+    max-width: 1050px;
+    margin: auto;
+}
+.why-header h1{
+    font-size: 45px;
+    padding-bottom: 20px;
+    color: #0c0f38;
+}
+.why-header p{
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 40px;
+}
+.why-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding-bottom: 50px;
+}
+/* .card{    
+} */
+.card-container{
+    border-radius: 20px;
+    box-shadow:  0px 0px 10px #ddd;
+    transition: 0.7s;
+    padding: 35px 0 30px; 
+    text-align: center;
+}
+.card-container:hover{
+    transform: scale(1.07);
+}
+.card-img-box{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.card-img-box img{
+    width: 100%;
+}
+.card-container h3{
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.card-container p{
+    width: 300px;
+    line-height: 25px;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+}
+.card a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    max-width: 190px;
+    color: #ffffff;
+    margin: 30px auto 10px;
+    text-align: center;
+    background-color: #000000;
+    padding: 15px 50px;
+    transition: 0.5s;
+}
+.card a:hover{
+    background-color: #8308EB;
+}
+/* Why choose us end here */
 
 /* responsive */
 @media (max-width:1140px) {
