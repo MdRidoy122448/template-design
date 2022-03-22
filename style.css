@@ -90,7 +90,7 @@ li{
     width: 950px;
     margin: auto;
 }
-.features-header{
+.feature-content h1{
     font-size: 45px;
     padding-bottom: 50px;
 }
@@ -117,14 +117,15 @@ li{
 .services{
     background-color: #0c0f38;
     color: white;
-    padding: 75px 0;
+    padding: 55px 0;
 }
 .services-caption{
+    max-width: 500px;
     text-align: center;
-    padding: 0 330px;
+    margin: auto;
 }
 .services-caption h1{
-    font-size: 30px;
+    font-size: 50px;
     padding-bottom: 20px;
 }
 .services-caption p{
@@ -136,10 +137,51 @@ li{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    padding-bottom: 50px;
 }
 .services-wrapper .item{
-    background-color: aqua;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    transition: 1s;
 }
+.item-box{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 40px auto 20px;
+    padding: 20px; 
+}
+.item-box img{
+    width: 100%;
+}
+.item h3{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.item p{
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 40px;
+}
+.services-wrapper .item:hover{
+    background-color: #8308EB;
+}
+.service-btn{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+    padding: 15px 0px;
+    max-width: 190px;
+    margin: 0 auto;
+}
+
 
 
 
@@ -148,12 +190,12 @@ li{
 @media (max-width:1140px) {
     .container{
         padding-left: 50px;
+        padding-right: 50px;
     } 
     .services-wrapper{
         grid-template-columns: repeat(2,1fr);
     }
 }
-
 @media (max-width:768px) {
     .services-wrapper{
         grid-template-columns: 1fr;
