@@ -72,3 +72,35 @@ li{
     padding: 15px 45px;
     text-transform: uppercase;
 }
+.header-content a:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+/* header area end */
+
+
+/* new-features */
+.new-features{
+    padding: 75px 480px 100px;
+    text-align: center;
+}
+.features-header{
+    font-size: 45px;
+    padding-bottom: 50px;
+}
+.new-features img{
+    padding-bottom: 40px;
+}
+.new-features p{
+    line-height: 30px;
+    padding-bottom: 45px;
+}
+.new-features a{
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #000000;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    /* margin-bottom: 100px;confusion */
+}
