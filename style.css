@@ -95,8 +95,13 @@ li{
     font-size: 45px;
     padding-bottom: 50px;
 }
+.web-img-wrapper{
+    max-width: 700px;
+    margin: 0 auto;
+}
 .new-features img{
     padding-bottom: 40px;
+    width: 100%;
 }
 .new-features p{
     line-height: 30px;
@@ -286,9 +291,10 @@ footer{
     position: relative;
 }
 form{
-    width: 550px;
+    max-width: 500px;
     border-radius: 25px;
-    left: 25%; 
+    left: 25%;
+    right: 25%; 
     background-color: #0C0F38;
     padding: 50px 50px 20px;
     top: -200px;
