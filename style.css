@@ -273,6 +273,25 @@ li{
 }
 /* Why choose us end here */
 
+/* footer start */
+
+footer{
+    background-color: dodgerblue;
+    position: relative;
+    padding: 100px 0;
+}
+
+form{
+    width: 550px;
+    margin: auto;
+    background-color: yellow;
+    padding: 20px;
+    transform: translateY(-150px);
+    position: absolute;
+}
+/* footer end */
+
+
 /* responsive */
 @media (max-width:1140px) {
     .container{
@@ -282,9 +301,15 @@ li{
     .services-wrapper{
         grid-template-columns: repeat(2,1fr);
     }
+    .why-wrapper{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 @media (max-width:768px) {
     .services-wrapper{
+        grid-template-columns: 1fr;
+    }
+    .why-wrapper{
         grid-template-columns: 1fr;
     }
 
