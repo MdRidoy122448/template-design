@@ -253,7 +253,7 @@ li{
     padding-bottom: 20px;
 }
 .card-container p{
-    width: 300px;
+    max-width: 300px;
     line-height: 25px;
     margin: auto;
     font-size: 18px;
@@ -292,6 +292,7 @@ footer{
 }
 form{
     max-width: 500px;
+    min-width: 300px;
     border-radius: 25px;
     left: 25%;
     right: 25%; 
